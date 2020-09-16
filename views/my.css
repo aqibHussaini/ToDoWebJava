@@ -1,0 +1,32 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+}
+.bg-color
+{
+    background:#673AB7;
+ 
+}
+.header
+{
+    height: 90vh;
+    width:100%;
+    color:white;
+ background:linear-gradient(to right,rgba(0,0,0,0.1),rgba(0,0,0,0.7)),url('https://images.pexels.com/photos/1546898/pexels-photo-1546898.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-size: cover;
+}
+.h-100
+{
+    height: 100%;
+    width: 100%;
+}
+.font{
+    font-family: 'Archivo', sans-serif; 
+}
+
+.footer{
+    
+    width: 100%; 
+}
+
