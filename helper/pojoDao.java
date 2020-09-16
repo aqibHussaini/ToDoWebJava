@@ -22,6 +22,7 @@ public class pojoDao {
         String sql="INSERT INTO `todo`(`name`, `description`,  `status`) VALUES (?,?,?)";
         int result=0;
         // logic of insertion....
+        Connection con= Connectionclass.getConnection();
         PreparedStatement stmnt=con.prepareStatement(sql);
         stmnt.setString(1,object.getName());
         stmnt.setString(2,object.getDescription());
